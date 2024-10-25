@@ -1,0 +1,75 @@
+/* Container styles */
+.cv-details-page {
+  max-width: 800px; /* Limit width for better readability */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f9f9f9; /* Light background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Header styles */
+.cv-details-page h2 {
+  font-size: 2rem; /* Large font for the name */
+  color: #333; /* Dark color for the text */
+  margin-bottom: 15px; /* Spacing below header */
+  border-bottom: 2px solid #4caf50; /* Underline with color */
+  padding-bottom: 10px; /* Padding below the line */
+}
+
+/* Paragraph styles */
+.cv-details-page p {
+  font-size: 1.1rem; /* Slightly larger font size */
+  color: #555; /* Grayish color for better contrast */
+  margin: 10px 0; /* Spacing between paragraphs */
+}
+
+/* Skills list styles */
+.cv-details-page p.skills {
+  font-weight: bold; /* Bold text for skills */
+}
+/* Button styles */
+.edit-button,
+.back-button {
+  margin-top: 20px; /* Space above buttons */
+  padding: 10px 15px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Edit button specific styles */
+.edit-button {
+  background-color: #4caf50; /* Green background */
+}
+
+.edit-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Back button specific styles */
+.back-button {
+  background-color: #2196f3; /* Blue background */
+  margin-left: 20px;
+}
+
+.back-button:hover {
+  background-color: #1e88e5; /* Darker blue on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .cv-details-page {
+    padding: 15px; /* Less padding on smaller screens */
+  }
+
+  .cv-details-page h2 {
+    font-size: 1.8rem; /* Smaller font size on mobile */
+  }
+
+  .cv-details-page p {
+    font-size: 1rem; /* Smaller font size on mobile */
+  }
+}

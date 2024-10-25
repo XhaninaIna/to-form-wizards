@@ -1,0 +1,64 @@
+/* cvlistpage.css */
+
+.cv-list-page {
+    max-width: 800px;  /* Set a maximum width for the page */
+    margin: 0 auto;    /* Center the page */
+    padding: 20px;     /* Add padding around the content */
+    font-family: 'Arial', sans-serif;  /* Use a clean font */
+  }
+  
+  .cv-filter {
+    display: flex;               /* Use flexbox for layout */
+    justify-content: space-between; /* Space between elements */
+    margin-bottom: 20px;        /* Space below the filter */
+  }
+  
+  .cv-filter input {
+    flex: 1;                    /* Allow the input to grow */
+    padding: 10px;              /* Add padding inside the input */
+    border: 1px solid #ccc;     /* Light border around input */
+    border-radius: 5px;         /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+  }
+  
+  .cv-filter input:focus {
+    border-color: #007bff;      /* Change border color on focus */
+    outline: none;               /* Remove default outline */
+  }
+  
+  .cv-list {
+    list-style: none;            /* Remove bullet points from the list */
+    padding: 0;                 /* Remove padding */
+  }
+  
+  .cv-list li {
+    background: #f9f9f9;        /* Light background color */
+    margin: 10px 0;             /* Space between list items */
+    padding: 15px;              /* Add padding inside each item */
+    border: 1px solid #ddd;     /* Border around each item */
+    border-radius: 8px;         /* Rounded corners */
+    display: flex;              /* Use flexbox for layout */
+    justify-content: space-between; /* Space between item content */
+    align-items: center;        /* Center content vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s;  /* Smooth transform transition */
+  }
+  
+  .cv-list li:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+  }
+  
+  .cv-list li button {
+    background: #ff4d4d;         /* Red background for delete button */
+    color: white;                /* White text */
+    border: none;                /* No border */
+    border-radius: 5px;         /* Rounded corners */
+    padding: 10px 15px;         /* Padding for the button */
+    cursor: pointer;             /* Pointer cursor on hover */
+     /* Smooth background transition */
+  }
+  
+  .cv-list li button:hover {
+    background: #e60000;        /* Darker red on hover */
+  }
+  

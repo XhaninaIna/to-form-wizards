@@ -1,0 +1,68 @@
+.cv-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.cv-details h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.cv-info {
+  width: 100%;
+  max-width: 600px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.cv-info:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cv-info h3 {
+  font-size: 1.75rem;
+  color: #007bff;
+  margin-bottom: 0.75rem;
+}
+
+.cv-info p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.cv-info p span {
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 4px #007bff;
+}
